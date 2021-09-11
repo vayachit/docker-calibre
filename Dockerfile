@@ -10,7 +10,7 @@ LABEL maintainer="aptalca"
 ENV \
   CUSTOM_PORT="8080" \
   GUIAUTOSTART="true" \
-  HOME="/config"
+  HOME="/books"
 
 RUN \
   echo "**** install runtime packages ****" && \
